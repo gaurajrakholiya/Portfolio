@@ -18,9 +18,9 @@ const server = express();
 server.use(cors()); // middleware = use()
 server.use(bodyParser.json()); // undefined in output
 server.use("/" , router)
-server.use(express.static(path.join(__dirname  , "build")));
+server.use(express.static(path.join(__dirname,"front"  , "build")));
 server.use("*", function (req, res) {
-  const index = path.join(__dirname, "build" ,"index.html" );
+  const index = path.join(__dirname,"front", "build" ,"index.html" );
   res.sendFile(index);
 });
 
