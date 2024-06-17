@@ -1,0 +1,19 @@
+body{
+  background-color:#0a192f;
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace ;
+  
+}
+
+
+@media (max-width: 1080px){
+main.fillHeight {
+    padding: 0px 100px;
+}
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+
+

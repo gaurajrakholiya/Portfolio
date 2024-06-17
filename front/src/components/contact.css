@@ -1,0 +1,80 @@
+.contact {
+  /* border: 2px dotted #64ffda; */
+  /* max-width: 600px; */
+  margin: 120px auto 100px;
+  text-align: center;
+}
+
+.contact h1 {
+  margin: 0px 0px 30px 4px;
+  color: #64ffda;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: clamp(14px, 5vw, 16px);
+  font-weight: 400;
+}
+
+.contact h2 {
+  color: #ccd6f6;
+  font-weight: 600;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  margin: 0px;
+  font-size: clamp(30px, 2vw, 45px);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* border: 1px solid #ccd6f6; */
+  border-radius: 10px;
+}
+
+.alvb,
+.vals {
+  border: 1px solid #233554;
+  border-radius: 24px;
+  color: #64ffda;
+  background-color: #233554;
+  margin: 10px 0px 30px 0;
+  font-size: medium;
+  width: 300px;
+  height: 45px;
+}
+
+.desc{
+
+    border: 1px solid #233554;
+    font-size: large;
+    border-radius: 24px;
+    background-color: #233554;
+    color: #64ffda;
+    margin: 10px 10px 0 0;
+    width: 300px;
+    height: 100px;
+
+}
+
+input {
+  display: flex;
+}
+
+label {
+  display: flex;
+  text-align: -40px;
+  color: aliceblue;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: 400;
+}
+
+
+.hi{
+    font-size: small;
+    margin-top: 30px;
+    width: 80px;
+    height: 20px;
+}

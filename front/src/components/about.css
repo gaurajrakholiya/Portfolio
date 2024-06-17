@@ -1,0 +1,74 @@
+.about{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0px;
+    position: relative;
+}
+
+
+section{
+    margin: 0 auto;
+    padding: 168px 0px;
+    max-width: 737px;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.intro h1{
+    margin: 0px 0px 30px 4px;
+    color: #64ffda;
+    font-family:  'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace ;
+    font-size: clamp(14px,5vw,16px);
+    font-weight: 400;
+}
+
+.big2 {
+    color: #ccd6f6;
+    font-weight: 600;
+    font-family:  'Calibre','Inter','San Francisco','SF Pro Text', -apple-system , system-ui , sans-serif;
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 65px);
+}
+
+.big3{
+    letter-spacing: 0px;
+    color:#8892b0 ;
+    font-weight: 600;
+    font-family:  'Calibre','Inter','San Francisco','SF Pro Text', -apple-system , system-ui , sans-serif;
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 65px);
+}
+
+.para p{
+    font-family:  'Calibre','Inter','San Francisco','SF Pro Text', -apple-system , system-ui , sans-serif;
+    margin: 20px 0px 0px;
+    max-width: 540px;
+    color: #8892b0;
+    /* word-spacing: 10px; */
+    line-height: 1.1;
+    font-size: large;
+}
+
+h1 ,h2 , h3  {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    color: #ccd6f6;
+    line-height: 1.1;
+}
+
+
+
+
+@media (max-width: 768px){
+
+section {
+    padding: 80px 0px;
+}}
